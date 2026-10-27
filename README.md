@@ -1,7 +1,9 @@
 # Calculadora Comercial
 
-Calculadora estática com as 29 abas da planilha. Abra o site, escolha uma aba e preencha os campos verdes. Não salva orçamentos e não exige login.
+Calculadora simples com as 29 abas da planilha, sem login e sem salvar orçamentos. Abra index.html ou use GitHub Pages.
 
-A base comercial fica pública com o código. Somente o proprietário com permissão de escrita no repositório altera a versão publicada. Os ajustes de simulação são temporários.
+Campos verdes são editáveis na sessão. A base publicada só é alterada pelo proprietário do repositório. Dados comerciais e fórmulas são públicos.
 
-Nomes e salários foram removidos da aba MO. Fórmulas com erro na origem aparecem como pendências. Os impostos e margens reproduzem a referência da planilha e não são uma apuração fiscal validada.
+Nomes e salários removidos da aba MO. Erros existentes na origem são sinalizados. Impostos reproduzidos da planilha, sem validação fiscal.
+
+Motor: 1.837 fórmulas sem erro conferidas com os resultados salvos no arquivo, sem divergências na carga inicial. Cromia externa importada em R$ 8/kg. Abas com fórmulas inválidas não geram resultados válidos até serem revisadas.
