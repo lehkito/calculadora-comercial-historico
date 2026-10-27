@@ -1,9 +1,11 @@
 # Calculadora Comercial
 
-Calculadora simples com as 29 abas da planilha, sem login e sem salvar orçamentos. Abra index.html ou use GitHub Pages.
+Calculadora simples sem login e sem histórico de orçamentos.
 
-Campos verdes são editáveis na sessão. A base publicada só é alterada pelo proprietário do repositório. Dados comerciais e fórmulas são públicos.
+10 abas visíveis: 03 SACOLA VOID, 04 ENV TRANS., 05 VAZADAS, 06 ENV COEX, 08 VAZADA, 09 BOPP, 10 REPRESENTANTE, 12 UNIFORMES, 13 PLATINUM e 23 Terceiros.
 
-Nomes e salários removidos da aba MO. Erros existentes na origem são sinalizados. Impostos reproduzidos da planilha, sem validação fiscal.
+01 IMPOSTOS, 26 BASE DE DADOS e 27 MO ficam ocultas no menu e preservadas como dependências dos cálculos. As outras 16 abas foram removidas da versão atual.
 
-Motor: 1.837 fórmulas sem erro conferidas com os resultados salvos no arquivo, sem divergências na carga inicial. Cromia externa importada em R$ 8/kg. Abas com fórmulas inválidas não geram resultados válidos até serem revisadas.
+A base comercial é pública no código. Ocultar abas não protege seus dados. Somente o proprietário com permissão de escrita altera a base publicada. As alterações de simulação são temporárias.
+
+Nomes e salários removidos de MO. Impostos reproduzidos da planilha, sem revisão fiscal. As 935 fórmulas válidas restantes conferem com a origem na carga inicial; fórmulas inválidas da origem continuam sinalizadas.
